@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public abstract class BasePage {
+public abstract class BasePage extends Verifications {
 	protected WebDriver driver;
 	protected WebDriverWait wait;
 	public BasePage(WebDriver driver)
